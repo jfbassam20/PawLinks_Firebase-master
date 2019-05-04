@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <RelativeLayout
+        android:id="@+id/headertopic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorSelectedIcon"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/left_name"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="129dp"
+            android:layout_marginRight="129dp"
+            android:layout_marginBottom="10dp"
+            android:singleLine="true"
+            android:text="Forum Topic"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/back_forum"
+            android:layout_width="42dp"
+            android:layout_height="27dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/colorSelectedIcon"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-10dp"
+        android:layout_above="@id/bottom_nav"
+        android:layout_below="@id/headertopic">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/catforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/cats" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Cat" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/dogforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/dog" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Dog" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/birdforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/birds" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Bird" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/fishforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/fish" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Fish" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rabbitforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/rabbit" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Rabbit" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/turtleforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/turtle" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Turtle" />
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/spiderforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/spider" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Spider" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/hamsterforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/hamster" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Hamster" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/otherforum"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/left_image"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/logo2" />
+
+                <TextView
+                    android:id="@+id/left_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="Other" />
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "751052402108",
+    "firebase_url": "https://pawlinksfirebase.firebaseio.com",
+    "project_id": "pawlinksfirebase",
+    "storage_bucket": "pawlinksfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751052402108:android:e3918a4cb8f027af",
+        "android_client_info": {
+          "package_name": "com.manpro.pawlinks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751052402108-mman8po4s805vg6l4ll9pgml2nc1t7us.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manpro.pawlinks",
+            "certificate_hash": "81b4060ef3e3dcfeec2f175f23afc9f95a0f6375"
+          }
+        },
+        {
+          "client_id": "751052402108-0apd95lts94rhb0u4qsldo71rauuv1l9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVSH38wgkB7zvcs9yrwdZUOhPVSttR4Gg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751052402108-0apd95lts94rhb0u4qsldo71rauuv1l9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
