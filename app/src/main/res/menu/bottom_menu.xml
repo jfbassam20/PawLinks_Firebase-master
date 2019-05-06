@@ -19,16 +19,9 @@
 
 
     <item
-        android:id="@+id/menu_tipsntricks"
-        android:icon="@drawable/ic_tipsntricks"
-        android:title="Tips"
-
-        />
-
-    <item
-        android:id="@+id/menu_qna"
-        android:icon="@drawable/ic_qna"
-        android:title="QnA Forum"
+        android:id="@+id/menu_posts"
+        android:icon="@drawable/ic_posts"
+        android:title="Posts"
 
         />
 
