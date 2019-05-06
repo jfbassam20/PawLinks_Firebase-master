@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "751052402108",
-    "firebase_url": "https://pawlinksfirebase.firebaseio.com",
-    "project_id": "pawlinksfirebase",
-    "storage_bucket": "pawlinksfirebase.appspot.com"
+    "project_number": "1067233966720",
+    "firebase_url": "https://pawlinks-543cc.firebaseio.com",
+    "project_id": "pawlinks-543cc",
+    "storage_bucket": "pawlinks-543cc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:751052402108:android:e3918a4cb8f027af",
+        "mobilesdk_app_id": "1:1067233966720:android:33a13d60dece4bcf",
         "android_client_info": {
-          "package_name": "com.manpro.pawlinks"
+          "package_name": "com.example.pawlinks"
         }
       },
       "oauth_client": [
         {
-          "client_id": "751052402108-mman8po4s805vg6l4ll9pgml2nc1t7us.apps.googleusercontent.com",
+          "client_id": "1067233966720-umvk878b01up1iosgiipo9juu6q9jnet.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.manpro.pawlinks",
-            "certificate_hash": "81b4060ef3e3dcfeec2f175f23afc9f95a0f6375"
+            "package_name": "com.example.pawlinks",
+            "certificate_hash": "dbc6aee2895c91c2fcc4d672cbcbbfa1bc4f0477"
           }
         },
         {
-          "client_id": "751052402108-0apd95lts94rhb0u4qsldo71rauuv1l9.apps.googleusercontent.com",
+          "client_id": "1067233966720-bhs0l2p82085puc0h0i205jt94ia6g3k.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCVSH38wgkB7zvcs9yrwdZUOhPVSttR4Gg"
+          "current_key": "AIzaSyBTLSA1Y8B3yejUkc7qmwRVSr32sR31mqA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "751052402108-0apd95lts94rhb0u4qsldo71rauuv1l9.apps.googleusercontent.com",
+              "client_id": "1067233966720-bhs0l2p82085puc0h0i205jt94ia6g3k.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

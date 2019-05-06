@@ -3,6 +3,6 @@
     <string name="action_search_text">Search</string>
     <string name="action_settings_text">Account Settings</string>
     <string name="action_logout_text">Logout</string>
-    <string name="title_activity_maps_fragment">Map</string>
-    <color name="colorSelectedIcon">#C7B299</color>
+    <string name="action_save_settings">Save Account Settings</string>
+    <string name="action_user_name">Your name..</string>
 </resources>
